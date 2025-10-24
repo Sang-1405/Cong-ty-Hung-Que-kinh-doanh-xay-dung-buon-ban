@@ -1,4 +1,4 @@
-[Uploading mau3.txt…]()
+[Uploading mau4.txt…]()
 <!doctype html>
 <html lang="vi">
 <head>
@@ -60,7 +60,6 @@
 </head>
 <body>
   <header class="site-header">
-    <!-- Brand updated to the exact text you requested -->
     <div class="brand">Công Ty Hưng Quế kinh doanh</div>
 
     <nav class="main-nav" aria-label="main navigation">
@@ -83,6 +82,7 @@
   </header>
 
   <main class="container">
+    <!-- HOME / HERO -->
     <section id="home" class="hero" aria-labelledby="home-title">
       <div>
         <h1 id="home-title">Giải pháp vật liệu & thiết bị cho mọi công trình</h1>
@@ -97,6 +97,7 @@
       </div>
     </section>
 
+    <!-- GIỚI THIỆU -->
     <section id="gioi-thieu" class="section" aria-labelledby="gioi-title">
       <h2 id="gioi-title">Giới thiệu công ty Hưng Quế</h2>
       <p>Hưng Quế là đơn vị phân phối vật liệu xây dựng, nội thất và thiết bị điện nước. Chúng tôi cung cấp giải pháp toàn diện cho nhà thầu, chủ đầu tư và hộ gia đình.</p>
@@ -112,6 +113,7 @@
       </div>
     </section>
 
+    <!-- DỊCH VỤ -->
     <section id="dich-vu" class="section">
       <h2>Dịch vụ</h2>
       <div class="cards">
@@ -121,22 +123,107 @@
       </div>
     </section>
 
-    <section id="san-pham" class="section">
-      <h2>Sản phẩm tiêu biểu</h2>
-      <div class="cards">
-        <article class="card"><img src="https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg" alt=""><h4>Tranh kính & Gạch</h4></article>
-        <article class="card"><img src="https://files.oaiusercontent.com/file-2b90f7b8-3b37-425d-bcf0-3b2d9b3aa31e/IMG_20231001_155730.jpg" alt=""><h4>Đèn & Chiếu sáng</h4></article>
-        <article class="card"><img src="https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg" alt=""><h4>Thiết bị vệ sinh</h4></article>
+    <!-- SẢN PHẨM -->
+    <section id="san-pham" class="section" aria-labelledby="sanpham-title">
+      <h2 id="sanpham-title">Sản phẩm tiêu biểu</h2>
+
+      <!-- Products grid -->
+      <div class="cards" id="productsGrid">
+        <!-- Existing original items (0..3) -->
+        <article class="card">
+          <img src="https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg" alt="Tranh kính & gạch lát sàn">
+          <h4>Tranh kính nghệ thuật & Gạch lát sàn</h4>
+          <p class="small">Trưng bày tranh kính nghệ thuật và các mẫu gạch lát sàn cao cấp.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="0">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://files.oaiusercontent.com/file-2b90f7b8-3b37-425d-bcf0-3b2d9b3aa31e/IMG_20231001_155730.jpg" alt="Thiết bị chiếu sáng">
+          <h4>Thiết bị chiếu sáng</h4>
+          <p class="small">Đèn trang trí, đèn trần, đèn thả, đèn bàn và các thiết bị chiếu sáng.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="1">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg" alt="Thiết bị vệ sinh">
+          <h4>Thiết bị vệ sinh & điện nước</h4>
+          <p class="small">Vòi nước, máy nước nóng, bồn rửa, thiết bị điện nước và phụ kiện.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="2">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg" alt="Mặt tiền showroom">
+          <h4>Mặt tiền showroom</h4>
+          <p class="small">Hình ảnh mặt tiền cửa hàng Hưng Quế - uy tín và chuyên nghiệp.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="3">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Liên hệ</a>
+          </div>
+        </article>
+
+        <!-- NEW: user images (16..19) added as products (indices 4..7) -->
+        <article class="card">
+          <!-- Save the provided first image as images/product-16.jpg (see notes below) -->
+          <img src="images/product-16.jpg" alt="Ảnh cửa hàng - khu thiết bị">
+          <h4>Khu thiết bị & phụ kiện</h4>
+          <p class="small">Kho trưng bày các thiết bị, phụ kiện và vật tư.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="4">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/product-17.jpg" alt="Ảnh showroom thiết bị">
+          <h4>Showroom thiết bị</h4>
+          <p class="small">Không gian trưng bày thiết bị điện nước, vòi, phụ kiện.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="5">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/product-18.jpg" alt="Khu mẫu gạch & tranh kính">
+          <h4>Khu mẫu gạch & tranh kính</h4>
+          <p class="small">Mẫu tranh kính, gạch ốp lát và sàn minh họa.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="6">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/product-19.jpg" alt="Thiết bị vệ sinh trưng bày">
+          <h4>Thiết bị vệ sinh trưng bày</h4>
+          <p class="small">Bồn cầu, lavabo và các phụ kiện trưng bày.</p>
+          <div style="margin-top:10px">
+            <button class="btn" data-idx="7">Xem ảnh</button>
+            <a class="btn" href="#lien-he">Mua hàng</a>
+          </div>
+        </article>
+
       </div>
     </section>
 
-    <section id="lien-he" class="section">
-      <h2>Liên hệ</h2>
+    <!-- LIÊN HỆ -->
+    <section id="lien-he" class="section" aria-labelledby="lien-title">
+      <h2 id="lien-title">Liên hệ</h2>
       <div style="display:grid;grid-template-columns:1fr 320px;gap:20px">
         <div>
           <form id="contactForm">
             <label>Họ tên<br><input name="name" type="text" required></label><br><br>
             <label>Điện thoại<br><input name="phone" type="tel" required></label><br><br>
+            <label>Email<br><input name="email" type="email"></label><br><br>
             <label>Nội dung<br><textarea name="message" rows="5" required></textarea></label><br><br>
             <button class="btn primary" type="submit">Gửi liên hệ</button>
           </form>
@@ -158,6 +245,7 @@
     </div>
   </footer>
 
+  <!-- Lightbox / modal (dùng chung cho tất cả sản phẩm) -->
   <div id="lightbox" class="lightbox" role="dialog" aria-hidden="true" style="display:none;align-items:center;justify-content:center">
     <div class="lightbox-inner" role="document">
       <button id="closeLightbox" class="btn" style="float:right">× Đóng</button>
@@ -167,6 +255,7 @@
     </div>
   </div>
 
+  <!-- Cookie banner -->
   <div id="cookieBanner" class="cookie-banner" style="position:fixed;bottom:16px;left:16px;right:16px;background:#222;color:#fff;padding:12px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;z-index:140">
     <span>Trang web sử dụng cookies để cải thiện trải nghiệm.</span>
     <div><button id="acceptCookies" class="btn">Đồng ý</button></div>
@@ -174,17 +263,26 @@
 
   <script>
     (function(){
+      // Cookie banner
       var cookieBanner = document.getElementById('cookieBanner');
       var accept = document.getElementById('acceptCookies');
       if(localStorage.getItem('hq_cookies')==='1') cookieBanner.style.display='none';
       if(accept) accept.addEventListener('click', function(){ localStorage.setItem('hq_cookies','1'); cookieBanner.style.display='none'; });
 
+      // Images array used by lightbox. Indices must match buttons' data-idx.
       var images = [
-        {src:"https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg", caption:"Tranh kính & Gạch"},
+        {src:"https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg", caption:"Tranh kính nghệ thuật & Gạch lát sàn"},
         {src:"https://files.oaiusercontent.com/file-2b90f7b8-3b37-425d-bcf0-3b2d9b3aa31e/IMG_20231001_155730.jpg", caption:"Thiết bị chiếu sáng"},
-        {src:"https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg", caption:"Thiết bị vệ sinh"},
-        {src:"https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg", caption:"Mặt tiền showroom"}
+        {src:"https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg", caption:"Thiết bị vệ sinh & điện nước"},
+        {src:"https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg", caption:"Mặt tiền showroom Hưng Quế"},
+        // New images added for the products you provided:
+        {src:"images/product-16.jpg", caption:"Khu thiết bị & phụ kiện (ảnh 16)"},
+        {src:"images/product-17.jpg", caption:"Showroom thiết bị (ảnh 17)"},
+        {src:"images/product-18.jpg", caption:"Khu mẫu gạch & tranh kính (ảnh 18)"},
+        {src:"images/product-19.jpg", caption:"Thiết bị vệ sinh trưng bày (ảnh 19)"}
       ];
+
+      // Lightbox handlers
       var productButtons = document.querySelectorAll('button[data-idx]');
       var lightbox = document.getElementById('lightbox');
       var lightboxImg = document.getElementById('lightboxImg');
@@ -199,14 +297,16 @@
           lightboxCaption.textContent = img.caption;
           lightboxContact.href = "#lien-he";
           lightbox.style.display = 'flex';
+          lightbox.setAttribute('aria-hidden','false');
           document.body.style.overflow = 'hidden';
         });
       });
 
       var closeLightbox = document.getElementById('closeLightbox');
-      if(closeLightbox) closeLightbox.addEventListener('click', function(){ lightbox.style.display='none'; document.body.style.overflow=''; });
-      if(lightbox) lightbox.addEventListener('click', function(e){ if(e.target===lightbox){ lightbox.style.display='none'; document.body.style.overflow=''; } });
+      if(closeLightbox) closeLightbox.addEventListener('click', function(){ lightbox.style.display='none'; lightbox.setAttribute('aria-hidden','true'); document.body.style.overflow=''; });
+      if(lightbox) lightbox.addEventListener('click', function(e){ if(e.target===lightbox){ lightbox.style.display='none'; lightbox.setAttribute('aria-hidden','true'); document.body.style.overflow=''; } });
 
+      // Contact form simple handler
       var form = document.getElementById('contactForm');
       if(form) form.addEventListener('submit', function(e){ e.preventDefault(); alert('Cảm ơn bạn! Thông tin đã được gửi.'); form.reset(); });
 
