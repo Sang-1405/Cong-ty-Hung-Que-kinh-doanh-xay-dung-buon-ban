@@ -1,18 +1,10 @@
-[Uploading mau2.txt…]()
+[Uploading mau3.txt…]()
 <!doctype html>
 <html lang="vi">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hưng Quế – Vật liệu xây dựng, nội thất, thiết bị điện nước</title>
-
-  <!-- IMPORTANT: change the base href to your repository name.
-       For example if your repo/project URL is:
-       https://sangbloxfruit1405-design.github.io/c-ng-ty-H-ng-Qu-kinh-doanh/
-       then base href must be "/c-ng-ty-H-ng-Qu-kinh-doanh/" so all relative links work.
-  -->
-  <base href="/c-ng-ty-H-ng-Qu-kinh-doanh/">
-
+  <title>Công Ty Hưng Quế kinh doanh</title>
   <style>
     :root{
       --primary:#d32f2f;
@@ -68,7 +60,8 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="brand">Hưng Quế</div>
+    <!-- Brand updated to the exact text you requested -->
+    <div class="brand">Công Ty Hưng Quế kinh doanh</div>
 
     <nav class="main-nav" aria-label="main navigation">
       <a class="nav-link active" href="#home">Trang chủ</a>
@@ -106,10 +99,16 @@
 
     <section id="gioi-thieu" class="section" aria-labelledby="gioi-title">
       <h2 id="gioi-title">Giới thiệu công ty Hưng Quế</h2>
-      <p>Hưng Quế là đơn vị phân phối vật liệu xây dựng, nội thất và thiết bị điện nước.</p>
-      <!-- video -->
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/NqTrCk04Qok" title="Giới thiệu Hưng Quế" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <p>Hưng Quế là đơn vị phân phối vật liệu xây dựng, nội thất và thiết bị điện nước. Chúng tôi cung cấp giải pháp toàn diện cho nhà thầu, chủ đầu tư và hộ gia đình.</p>
+
+      <div class="video-wrapper" aria-hidden="false">
+        <iframe
+          src="https://www.youtube.com/embed/NqTrCk04Qok"
+          title="Giới thiệu Hưng Quế"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"></iframe>
       </div>
     </section>
 
@@ -154,7 +153,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2025 Hưng Quế – Vật liệu xây dựng, nội thất, thiết bị điện nước.</p>
+      <p>© 2025 Công Ty Hưng Quế kinh doanh – Vật liệu xây dựng, nội thất, thiết bị điện nước.</p>
       <p class="small">Điện thoại: <a href="tel:0914414368">0914414368</a> • Hotline: <a href="tel:0944215456">0944215456</a></p>
     </div>
   </footer>
