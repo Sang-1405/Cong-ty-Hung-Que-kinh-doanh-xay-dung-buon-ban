@@ -1,4 +1,4 @@
-[Uploading mau4.txt…]()
+[mau5.txt](https://github.com/user-attachments/files/23147445/mau5.txt)
 <!doctype html>
 <html lang="vi">
 <head>
@@ -7,47 +7,49 @@
   <title>Công Ty Hưng Quế kinh doanh</title>
   <style>
     :root{
-      --primary:#d32f2f;
-      --accent:#1f8a4d;
-      --bg:#f7f7f7;
+      --primary:#2196f3;         /* Màu xanh biển chủ đạo */
+      --accent:#1565c0;          /* Màu xanh biển đậm */
+      --brand-red:#d32f2f;       /* Màu đỏ nổi bật cho tên công ty */
+      --bg:#e3f2fd;              /* Nền xanh nhạt */
       --card:#fff;
-      --muted:#666;
-      --dark:#222;
+      --muted:#5c7fa3;           /* Xanh xám nhẹ */
+      --dark:#0d2240;            /* Xanh đậm thay cho đen */
       --radius:12px;
       --max-width:1200px;
     }
     *{box-sizing:border-box}
     body{font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--dark);line-height:1.5;margin:0}
     a{color:var(--accent)}
-    header.site-header{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:var(--card);border-bottom:1px solid #e6e6e6;position:sticky;top:0;z-index:60}
-    .brand{font-weight:700;color:var(--dark);font-size:20px}
+    header.site-header{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:var(--card);border-bottom:1px solid #cce1ff;position:sticky;top:0;z-index:60}
+    .brand{font-weight:700;color:var(--brand-red);font-size:22px;letter-spacing:0.5px;}
     .main-nav{display:flex;gap:10px;align-items:center}
     .nav-link{padding:8px 10px;border-radius:8px;color:var(--dark);text-decoration:none}
-    .nav-link:hover,.nav-link.active{background:#f0f8f5;color:var(--accent)}
+    .nav-link:hover,.nav-link.active{background:#e3f2fd;color:var(--accent)}
     .header-contact{font-size:14px;color:var(--muted);display:flex;align-items:center;gap:8px}
-    .header-contact a{color:var(--dark);font-weight:600;text-decoration:none}
-    .mobile-toggle{display:none;background:transparent;border:0;font-size:20px;padding:6px;cursor:pointer}
+    .header-contact a{color:var(--accent);font-weight:600;text-decoration:none}
+    .mobile-toggle{display:none;background:transparent;border:0;font-size:20px;padding:6px;cursor:pointer;color:var(--accent)}
     .container{max-width:var(--max-width);margin:0 auto;padding:18px}
-    .hero{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;padding:24px;background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,0.06)}
-    .hero h1{margin:0 0 12px;font-size:28px}
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;padding:24px;background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(33,150,243,0.09)}
+    .hero h1{margin:0 0 12px;font-size:28px;color:var(--primary)}
     .hero p{color:var(--muted)}
-    .hero img{width:100%;border-radius:10px;display:block}
+    .hero img{width:100%;border-radius:10px;display:block;box-shadow:0 4px 16px rgba(33,150,243,0.08)}
     .section{margin-top:22px}
     .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-    .card{background:var(--card);padding:14px;border-radius:12px;border:1px solid #eee;box-shadow:0 6px 18px rgba(0,0,0,0.03)}
+    .card{background:var(--card);padding:14px;border-radius:12px;border:1px solid #cce1ff;box-shadow:0 6px 18px rgba(33,150,243,0.05)}
     .card img{width:100%;height:140px;object-fit:cover;border-radius:8px;margin-bottom:10px}
-    h2{margin-bottom:12px}
+    h2{margin-bottom:12px;color:var(--primary)}
     .video-wrapper{position:relative;padding-top:56.25%;margin-top:12px;border-radius:8px;overflow:hidden}
     .video-wrapper iframe{position:absolute;left:0;top:0;width:100%;height:100%;border:0}
-    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #ccc;background:#fff;color:var(--dark);text-decoration:none;cursor:pointer}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid var(--accent);background:#fff;color:var(--accent);text-decoration:none;cursor:pointer;transition:all 0.15s}
     .btn.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
-    footer.site-footer{background:var(--card);border-top:1px solid #e6e6e6;padding:18px 16px;margin-top:28px;text-align:center;color:var(--muted)}
-    .lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);align-items:center;justify-content:center;z-index:120}
+    .btn:hover{background:var(--accent);color:#fff}
+    footer.site-footer{background:var(--card);border-top:1px solid #cce1ff;padding:18px 16px;margin-top:28px;text-align:center;color:var(--muted)}
+    .lightbox{display:none;position:fixed;inset:0;background:rgba(33,150,243,0.85);align-items:center;justify-content:center;z-index:120}
     .lightbox-inner{background:#fff;padding:18px;border-radius:10px;max-width:95vw;max-height:92vh;overflow:auto;text-align:center}
     .lightbox-inner img{max-width:90vw;max-height:68vh;border-radius:8px;display:block;margin:0 auto 12px}
     .muted{color:var(--muted)}
-    form input, form textarea {width:100%;padding:8px;border-radius:6px;border:1px solid #ddd}
-    .sep{color:#ccc;margin:0 6px}
+    form input, form textarea {width:100%;padding:8px;border-radius:6px;border:1px solid #cce1ff}
+    .sep{color:#cce1ff;margin:0 6px}
     .small{font-size:0.9em;color:var(--muted)}
     @media(max-width:900px){
       .hero{grid-template-columns:1fr}
@@ -55,7 +57,7 @@
       .mobile-toggle{display:inline-block}
       header.site-header{flex-wrap:wrap;gap:8px}
     }
-    .mobile-nav-open .main-nav{display:flex;position:absolute;left:16px;right:16px;top:64px;background:var(--card);padding:8px;border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,0.1);flex-direction:column}
+    .mobile-nav-open .main-nav{display:flex;position:absolute;left:16px;right:16px;top:64px;background:var(--card);padding:8px;border-radius:8px;box-shadow:0 10px 30px rgba(33,150,243,0.14);flex-direction:column}
   </style>
 </head>
 <body>
@@ -102,6 +104,13 @@
       <h2 id="gioi-title">Giới thiệu công ty Hưng Quế</h2>
       <p>Hưng Quế là đơn vị phân phối vật liệu xây dựng, nội thất và thiết bị điện nước. Chúng tôi cung cấp giải pháp toàn diện cho nhà thầu, chủ đầu tư và hộ gia đình.</p>
 
+      <!-- Ảnh mặt tiền công ty -->
+      <img 
+        src="https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg"
+        alt="Mặt tiền Công ty Hưng Quế"
+        style="width:100%;max-width:700px;display:block;margin:18px auto 8px auto;border-radius:12px;box-shadow:0 4px 18px rgba(33,150,243,0.10)"
+      >
+
       <div class="video-wrapper" aria-hidden="false">
         <iframe
           src="https://www.youtube.com/embed/NqTrCk04Qok"
@@ -129,7 +138,6 @@
 
       <!-- Products grid -->
       <div class="cards" id="productsGrid">
-        <!-- Existing original items (0..3) -->
         <article class="card">
           <img src="https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg" alt="Tranh kính & gạch lát sàn">
           <h4>Tranh kính nghệ thuật & Gạch lát sàn</h4>
@@ -139,7 +147,6 @@
             <a class="btn" href="#lien-he">Mua hàng</a>
           </div>
         </article>
-
         <article class="card">
           <img src="https://files.oaiusercontent.com/file-2b90f7b8-3b37-425d-bcf0-3b2d9b3aa31e/IMG_20231001_155730.jpg" alt="Thiết bị chiếu sáng">
           <h4>Thiết bị chiếu sáng</h4>
@@ -149,7 +156,6 @@
             <a class="btn" href="#lien-he">Mua hàng</a>
           </div>
         </article>
-
         <article class="card">
           <img src="https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg" alt="Thiết bị vệ sinh">
           <h4>Thiết bị vệ sinh & điện nước</h4>
@@ -159,7 +165,6 @@
             <a class="btn" href="#lien-he">Mua hàng</a>
           </div>
         </article>
-
         <article class="card">
           <img src="https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg" alt="Mặt tiền showroom">
           <h4>Mặt tiền showroom</h4>
@@ -169,49 +174,7 @@
             <a class="btn" href="#lien-he">Liên hệ</a>
           </div>
         </article>
-
-        <!-- NEW: user images (16..19) added as products (indices 4..7) -->
-        <article class="card">
-          <!-- Save the provided first image as images/product-16.jpg (see notes below) -->
-          <img src="images/product-16.jpg" alt="Ảnh cửa hàng - khu thiết bị">
-          <h4>Khu thiết bị & phụ kiện</h4>
-          <p class="small">Kho trưng bày các thiết bị, phụ kiện và vật tư.</p>
-          <div style="margin-top:10px">
-            <button class="btn" data-idx="4">Xem ảnh</button>
-            <a class="btn" href="#lien-he">Mua hàng</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <img src="images/product-17.jpg" alt="Ảnh showroom thiết bị">
-          <h4>Showroom thiết bị</h4>
-          <p class="small">Không gian trưng bày thiết bị điện nước, vòi, phụ kiện.</p>
-          <div style="margin-top:10px">
-            <button class="btn" data-idx="5">Xem ảnh</button>
-            <a class="btn" href="#lien-he">Mua hàng</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <img src="images/product-18.jpg" alt="Khu mẫu gạch & tranh kính">
-          <h4>Khu mẫu gạch & tranh kính</h4>
-          <p class="small">Mẫu tranh kính, gạch ốp lát và sàn minh họa.</p>
-          <div style="margin-top:10px">
-            <button class="btn" data-idx="6">Xem ảnh</button>
-            <a class="btn" href="#lien-he">Mua hàng</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <img src="images/product-19.jpg" alt="Thiết bị vệ sinh trưng bày">
-          <h4>Thiết bị vệ sinh trưng bày</h4>
-          <p class="small">Bồn cầu, lavabo và các phụ kiện trưng bày.</p>
-          <div style="margin-top:10px">
-            <button class="btn" data-idx="7">Xem ảnh</button>
-            <a class="btn" href="#lien-he">Mua hàng</a>
-          </div>
-        </article>
-
+        <!-- Nếu có thêm ảnh sản phẩm khác, thêm tại đây -->
       </div>
     </section>
 
@@ -228,7 +191,7 @@
             <button class="btn primary" type="submit">Gửi liên hệ</button>
           </form>
         </div>
-        <aside style="background:var(--card);padding:14px;border-radius:10px;border:1px solid #eee">
+        <aside style="background:var(--card);padding:14px;border-radius:10px;border:1px solid #cce1ff">
           <p><strong>Địa chỉ:</strong> Yên Sơn, Thanh Hóa</p>
           <p><strong>Điện thoại:</strong> <a href="tel:0914414368">0914414368</a></p>
           <p><strong>Hotline:</strong> <a href="tel:0944215456">0944215456</a></p>
@@ -256,7 +219,7 @@
   </div>
 
   <!-- Cookie banner -->
-  <div id="cookieBanner" class="cookie-banner" style="position:fixed;bottom:16px;left:16px;right:16px;background:#222;color:#fff;padding:12px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;z-index:140">
+  <div id="cookieBanner" class="cookie-banner" style="position:fixed;bottom:16px;left:16px;right:16px;background:var(--accent);color:#fff;padding:12px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;z-index:140">
     <span>Trang web sử dụng cookies để cải thiện trải nghiệm.</span>
     <div><button id="acceptCookies" class="btn">Đồng ý</button></div>
   </div>
@@ -274,12 +237,7 @@
         {src:"https://files.oaiusercontent.com/file-90cfdb4d-924a-4a14-99b6-7c4c690e5f95/IMG_20231001_155708.jpg", caption:"Tranh kính nghệ thuật & Gạch lát sàn"},
         {src:"https://files.oaiusercontent.com/file-2b90f7b8-3b37-425d-bcf0-3b2d9b3aa31e/IMG_20231001_155730.jpg", caption:"Thiết bị chiếu sáng"},
         {src:"https://files.oaiusercontent.com/file-9e7c2a4a-7c41-48f7-8b42-6b5e6ee9e09f/IMG_20231001_155735.jpg", caption:"Thiết bị vệ sinh & điện nước"},
-        {src:"https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg", caption:"Mặt tiền showroom Hưng Quế"},
-        // New images added for the products you provided:
-        {src:"images/product-16.jpg", caption:"Khu thiết bị & phụ kiện (ảnh 16)"},
-        {src:"images/product-17.jpg", caption:"Showroom thiết bị (ảnh 17)"},
-        {src:"images/product-18.jpg", caption:"Khu mẫu gạch & tranh kính (ảnh 18)"},
-        {src:"images/product-19.jpg", caption:"Thiết bị vệ sinh trưng bày (ảnh 19)"}
+        {src:"https://files.oaiusercontent.com/file-7c6b7b7f-fbfb-4c7b-9c25-8613de8b8bb2/IMG_20231001_155658.jpg", caption:"Mặt tiền showroom Hưng Quế"}
       ];
 
       // Lightbox handlers
