@@ -1,5 +1,4 @@
-[mau6.txt](https://github.com/user-attachments/files/23147525/mau6.txt)
-<!-- Đoạn sản phẩm tiêu biểu dùng đúng tên file ảnh theo repo của bạn -->
+[mau7.txt](https://github.com/user-attachments/files/23147582/mau7.txt)
 <section id="san-pham" class="section" aria-labelledby="sanpham-title">
   <h2 id="sanpham-title">Sản phẩm tiêu biểu</h2>
   <div class="cards" id="productsGrid">
